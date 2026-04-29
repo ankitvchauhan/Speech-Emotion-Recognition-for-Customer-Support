@@ -19,10 +19,7 @@ env/
 *.conda
 *.egg-info/
 
-# Models
-models/*.h5
-models/*.keras
-models/*.pkl
+
 
 # Data (optional - if large)
 data/
