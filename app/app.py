@@ -9,7 +9,10 @@ from tensorflow.keras.models import load_model
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-model = load_model(os.path.join(BASE_DIR, "models", "model.keras"))
+model = load_model(
+    os.path.join(BASE_DIR, "models", "model.keras"),
+    compile=False
+)
 le = joblib.load(os.path.join(BASE_DIR, "models", "encoder.pkl"))
 
 # 🎯 Emotion Mapping
