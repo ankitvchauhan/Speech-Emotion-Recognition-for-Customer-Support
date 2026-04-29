@@ -1,0 +1,44 @@
+
+---
+
+# 📄 `.gitignore`
+
+```gitignore
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# Conda
+*.conda
+*.egg-info/
+
+# Models
+models/*.h5
+models/*.keras
+models/*.pkl
+
+# Data (optional - if large)
+data/
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Temporary files
+temp.wav
